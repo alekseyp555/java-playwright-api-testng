@@ -1,0 +1,35 @@
+# Игнорируем файлы IDE IntelliJ Idea
+.idea/
+*.iml
+.github/
+
+# Игнорируем бинарники и артефакты сборки Maven
+target/
+
+# Файлы журналов и отчётов тестов
+logs/*
+reports/*
+test-output/*
+
+# Конфигурационные файлы с секретами и чувствительной информацией
+config/application.properties
+config/application.yml
+config/*.properties
+config/*.yml
+
+# Временные и промежуточные файлы
+*.tmp
+*.bak
+*.swp
+*.log
+
+# Кэшированные файлы Gradle/Maven
+.gradle/
+.mvn/
+build/
+
+# Отчётные файлы JUnit и TestNG
+**/*Test.html
+**/*Test.xml
+**/*Report.html
+**/*Results.html
