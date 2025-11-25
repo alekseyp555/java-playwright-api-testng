@@ -3,7 +3,7 @@
 <suite name="Restful Booker Test Suite">
     <test name="End to End Booking Tests">
         <classes>
-            <class name="io.github.mfaisalkhatri.api.restfulbooker.tests.RestfulBookerEndToEndTests">
+            <class name="io.github.rest.api.restfulbooker.tests.RestfulBookerEndToEndTests">
                 <methods>
                     <include name="createBookingTest"/>
                     <include name="getBookingTest"/>
